@@ -1,0 +1,19 @@
+REPL => Read-Eval-print-loop
+Modules => Collection of related functions
+Function are inside modules inside the standard library
+Python comes with all the usual operators, including <, >, <=, >=, ==, !=, as well as the = assignment operator.
+The in operator checks if one thing is inside another.
+Python uses indentation to demarcate a block of code, which Python programmers prefer to call suite as opposed to block
+elseif is replaced with keyword elif
+Python comes with a built-in IDE called IDLE, which lets you create, edit, and run your Python code—all you need to do is type in your code, save it, and then press F5. 
+IDLE interacts with the Python interpreter, which automates the compile-link-run process for you. This lets you concentrate on writing your code. 
+The interpreter runs your code (stored in a file) from top to bottom, one line at a time. There is no notion of a main() function/method in Python. 
+Python comes with a powerful standard library, which provides access to lots of reusable modules (of which datetime is just one example). 
+There is a collection of standard data structures available to you when you’re writing Python programs. The list is one of them, and is very similar in notion to an array. 
+The type of a variable does not need to be declared. When you assign a value to a variable in Python, it dynamically takes on the type of the data it refers to. 
+You make decisions with the if/elif/else statement. The if, elif, and else keywords precede blocks of code, which are known in the Python world as “suites.” 
+It is easy to spot suites of code, as they are always indented. Indentation is the only code grouping mechanism provided by Python. 
+In addition to indentation, suites of code are also preceded by a colon (:). This is a syntactical requirement of the language.
+
+Barry, Paul. Head First Python: A Brain-Friendly Guide (pp. 66-67). O'Reilly Media. Kindle Edition. 
+
