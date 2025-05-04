@@ -1,0 +1,44 @@
+The dictionary(an associative array,as map, hash, and table) is used to hold a collection of key/value pairs.
+
+Each key is enclosed in quotes, as they are strings, as is each value. (Keys and values don’t have to be strings, however.) Each key is separated from its associated value by a colon character (:), and each key/value pair (a.k.a. “row”) is separated from the next by a comma.
+
+Like lists, dictionaries understand the square bracket notation. However, unlike lists, which use numeric index values to access data, dictionaries use keys to access their associated data values. For example person3['Name']
+
+Think of a dictionary as a collection of rows, with each row containing exactly two columns. The first column stores a key, while the second contains a value. 
+
+Each row is known as a key/value pair, and a dictionary can grow to contain any number of key/value pairs. Like lists, dictionaries grow and shrink on demand. 
+
+A dictionary is easy to spot: it’s enclosed in curly braces, with each key/value pair separated from the next by a comma, and each key separated from its value by a colon. 
+
+Insertion order is not maintained by a dictionary. The order in which rows are inserted has nothing to do with how they are stored. 
+
+Accessing data in a dictionary uses the square bracket notation. Put a key inside square brackets to access its associated value. 
+
+Python’s for loop can be used to iterate over a dictionary. On each iteration, the key is assigned to the loop variable, which is used to access the data value.
+
+By default, every dictionary is unordered, as insertion order is not maintained. If you need to sort a dictionary on output, use the sorted built-in function. 
+
+The items method allows you to iterate over a dictionary by row—that is, by key/value pair. On each iteration, the items method returns the next key and its associated value to your for loop. 
+
+Trying to access a nonexistent key in an existing dictionary results in a KeyError. When a KeyError occurs, your program crashes with a runtime error. 
+
+You can avoid a KeyError by ensuring every key in your dictionary has a value associated with it before you try to access it. Although the in and not in operators can help here, the established technique is to use the setdefault method instead.
+
+A collection of objects are separated from one another by commas and surrounded by curly braces. eg {'a', 'e', 'i', 'o', 'u'}
+
+Set data structure can perform set-like operations, difference, intersection, and union.
+
+Sets in Python do not allow duplicates. 
+
+Like dictionaries, sets are enclosed in curly braces, but sets do not identify key/value pairs. Instead, each unique object in the set is separated from the next by a comma. 
+
+Also like dictionaries, sets do not maintain insertion order (but can be ordered with the sorted function). 
+
+You can pass any sequence to the set function to create a set of elements from the objects in the sequence (minus any duplicates). 
+
+Sets come pre-packaged with lots of built-in functionality, including methods to perform union, difference, and intersection.
+
+Tuples are immutable: they cannot change.
+
+The built-in data structures themselves store built-in data structures. yes, due to the fact that everything is an object in Python.
+
