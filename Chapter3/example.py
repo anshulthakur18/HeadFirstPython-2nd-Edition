@@ -3,14 +3,17 @@ person3 = {'Name': 'Ford Prefect',
            'Gender': 'Male',
            'Occupation': 'Researcher',
            'Home Planet': 'Betelgeuse Seven' }
+
 print(person3)
 print(person3['Name'])
 
 # Add a new key-value pair to the dictionary
+
 person3['Age'] = 33
 print(person3)
 
 # Set example
+
 vowels = set('aeiou')
 word = 'hello'
 u = vowels.union(set(word)) #a combination of the objects in both sets (a union):
@@ -25,6 +28,7 @@ i = vowels.intersection(set(word))
 print(i)
 
 #TUPLE example
+
 '''
 vowels = ('a', 'e', 'i', 'o', 'u')
 type(vowels)
@@ -46,6 +50,7 @@ print(t2)
 
 #complex built-in data types
 #list, tuple, set, and dictionary are all complex built-in data types. They are called complex because they can contain other objects, including other complex objects. The simplest of these is the list, which is a collection of objects that can be of any type. Lists are mutable, meaning you can change them after they are created. Tuples are similar to lists, but they are immutable, meaning you cannot change them after they are created. Sets are unordered collections of unique objects. Dictionaries are collections of key-value pairs.
+
 people = {}
 people['Ford'] = {'Name': 'Ford Prefect',
                   'Gender': 'Male',
@@ -70,6 +75,7 @@ people['Robot'] = {'Name': 'Marvin',
 print(people) # interpreter will dump the entire dictionary to the screen
 
 #Python standord library has a built-in module called pprint, which stands for pretty print. This module provides a way to format the output of complex data structures in a more readable way.
+
 import pprint
 pprint.pprint(people)
 
